@@ -1,4 +1,10 @@
+/*-----------------------------------
+how query works.
+This query subtracts current month +1 from month and current date+1 from the date.
+eg if date is 2020-5-6,
+  for month pa
 
+*/
 
 
 --Variable declared 
@@ -9,4 +15,5 @@ set @InputDate ='2021-1-1' -- <-- make changes here
 --set @InputDate = GETDATE() -- <-- uncomment this to take current date as input. 
 
 --Main query
-PRINT DATENAME(DW,dateadd(mm,+1-datepart(mm,@InputDate),dateadd(dd,+1-datepart(dd,@InputDate),@InputDate)))
+select DATENAME(DW, dateadd(mm,+1 -datepart(mm,@InputDate), dateadd(dd,+1 -datepart(dd, @InputDate),@InputDate)))
+
