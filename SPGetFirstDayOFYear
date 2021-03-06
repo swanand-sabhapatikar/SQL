@@ -1,0 +1,12 @@
+
+
+
+--Variable declared 
+declare @InputDate datetime 
+
+-- setting variables 
+set @InputDate ='2021-1-1' -- <-- make changes here
+--set @InputDate = GETDATE() -- <-- uncomment this to take current date as input. 
+
+--Main query
+PRINT DATENAME(DW,dateadd(mm,+1-datepart(mm,@InputDate),dateadd(dd,+1-datepart(dd,@InputDate),@InputDate)))
