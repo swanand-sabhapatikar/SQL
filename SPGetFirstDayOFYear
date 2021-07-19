@@ -1,12 +1,18 @@
-/*-----------------------------------
-how query works.
-This query subtracts current month +1 from month and current date+1 from the date.
-eg if date is 2021-5-6 then,
+/*
+===============================
+Author: swanand R S 
+version: 1.0
+Date: 1-Feb-2021
+Brief: The The script will retrun date on 1st day of the year for the date given as input.
+
+Desc: 
+  This query subtracts current month +1 from month and current date+1 from the date.
+  eg if date is 2021-5-6 then,
   1. The query substracts 5 from day part of the date.
   2. Above result is taken as input and then 6 is substracted from month part.
   3. Above result is taken as input and passed to DateName and it return name of the day.
+===============================
 */
-
 
 --Variable declared 
 declare @InputDate datetime 
