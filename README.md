@@ -1,6 +1,6 @@
 # SQL
 The repo contain Stored Procs, Functions, scripts drafted by me.
-These are drafted as to showcase concepts that are crucial for SQL developer; which includes date-manipulation (Date functions), CTEs, Window Functions and so on..
+These are drafted as to showcase concepts that are crucial for SQL developer which includes date-manipulation (Date functions), CTEs, Window Functions and so on..
 
 concetps showcased:
 1. Date functions 
