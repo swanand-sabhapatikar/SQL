@@ -14,7 +14,9 @@ will add more scrips, SPs, Functions in Future
 
 ### 1. GetFirstDayOfYear.sql 
   Brief: The SQL proc will give you name of the day on 1st day of year given as input.. input is date in std YYYY/MM/DD format.
+  Medium Link: https://swanand-sabhapatikar.medium.com/magic-with-datetime-functions-ms-sql-servet-fc699658d862
 
 ### 2. Factorial.sql
   Brief: This script uses recursive CTE to retrun factorial of given number as input.
+  
   
