@@ -2,7 +2,7 @@
 /*
 ===============================
 Author: swanand R S 
-version: 1
+version: 1.0
 Date: 5-July-2021
 Brief: Recursive CTE For factorial 
 
