@@ -2,7 +2,7 @@
 ===============================
 Author: swanand R S 
 version: 1.0
-Date: 1-Feb-2021
+Date: 6-Mar-2021
 Brief: The The script will retrun date on 1st day of the year for the date given as input.
 
 Desc: 
@@ -11,6 +11,8 @@ Desc:
   1. The query substracts 5 from day part of the date.
   2. Above result is taken as input and then 6 is substracted from month part.
   3. Above result is taken as input and passed to DateName and it return name of the day.
+Medium Link: https://swanand-sabhapatikar.medium.com/magic-with-datetime-functions-ms-sql-servet-fc699658d862
+ 
 ===============================
 */
 
