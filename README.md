@@ -20,3 +20,11 @@ will add more scrips, SPs, Functions in Future
   Brief: This script uses recursive CTE to retrun factorial of given number as input.
   
   
+### 3. Finding objects in MS SQL
+  Brief: this script will help to find sql objects like tables, SPs, UDFs and columns in a database/server by exact name or certain keyword in definition or name. The script will          be devided into parts to  make it ease by object type
+         Each above part will be further sub-divided as to search with exact name or a keyword in Name or definition.
+         part 1 : Table
+         part 2 : SPs
+         part 3 : columns
+         part 4 : UDFs   
+          
